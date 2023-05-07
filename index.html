@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <h1>Tecno Chile</h1>
+    <nav>
+      <span>Inicio | Productos | Contacto</span>
+    </nav>
+    <input type="text" id="search" placeholder="Buscar" />
+    <div id="loading" style="display: none;">Cargando...</div>
+    <div id="posts"></div>
+    <template id="post-template">
+      <div class="card">
+        <h2></h2>
+        <p></p>
+        <button>Agregar a favoritos</button>
+      </div>
+    </template>
+
+    <script src="./assets/Javascript/funciones.js"></script>
+  </body>
+</html>
